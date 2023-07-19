@@ -9,7 +9,7 @@ In this deliverable, the goal is to create a Python script to visualize the weat
 For this part, the WeatherPy.ipynb Jupyter notebook source was provided in the starter code ZIP file. 
 To get started, the code required to generate random geographic coordinates and the nearest city to each latitude and longitude combination is provided.
 
-*Requirement 1:*
+*#Requirement 1:#*
 
 #Create Plots to Showcase the Relationship Between Weather Variables and Latitude
 #Create a series of scatter plots to showcase the following relationships:
@@ -22,7 +22,7 @@ Latitude vs. Cloudiness
 
 Latitude vs. Wind Speed
 
-*Requirement 2:*
+*#Requirement 2:#*
 Compute Linear Regression for Each Relationship
 To fulfill the second requirement, compute the linear regression for each relationship. 
 Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). Here the method used for it was by defining a function in order to create the linear regression plots.
@@ -56,7 +56,7 @@ The code needed to import the required libraries and load the CSV file with the 
 
 The main tasks was to use the Geoapify API and the geoViews Python library and employ Python skills to create map visualizations.
 
-#Requirements#
+**#Requirements#**
 
 1. Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
    
